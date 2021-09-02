@@ -1,8 +1,5 @@
-
 int LED = 5; // conect Led to arduino pin 5
-
 int IRSensor = 2; // connect ir sensor to arduino pin 2
-
 
 void setup() 
 {
@@ -14,10 +11,10 @@ void loop() {
   int statusSensor = digitalRead (IRSensor);
   
   if (statusSensor == 1) {
-    digitalWrite(LED, HIGH); // LED LOW
+    digitalWrite(LED, HIGH); // LED HIGH
   }
   
   else {
-    digitalWrite(LED, LOW); // LED High
+    digitalWrite(LED, LOW); // LED LOW
   }
 }
