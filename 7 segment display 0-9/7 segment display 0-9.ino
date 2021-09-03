@@ -138,11 +138,11 @@ void loop()
   	delay(1000);
   	two();
   	delay(1000);
-    three();
+   	three();
   	delay(1000);
-    four();
+    	four();
   	delay(1000);
-    five();
+	five();
   	delay(1000);
   	six();
   	delay(1000);
