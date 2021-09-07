@@ -1,5 +1,4 @@
-
-int LED = 13; // conect Led to arduino pin 13
+int LED = 13; // connect Led to arduino pin 13
 
 void setup()
 {
